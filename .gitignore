@@ -3,8 +3,8 @@ logs
 *.log
 
 # Cordova
-plugins/
-platforms/
+plugins/*
+platforms/*
 
 # Compiled binary
 build
