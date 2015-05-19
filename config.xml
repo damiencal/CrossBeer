@@ -4,7 +4,7 @@
     <description>
         A community driven beer app.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
+    <author email="contact@crossbeer.io" href="http://crossbeer.io">
         CrossBeer
     </author>
     <content src="index.html" />
