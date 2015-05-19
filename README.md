@@ -1,9 +1,8 @@
 # CrossBeer
 
-[![Coverage Status](http://img.shields.io/coveralls/damiencal/generator-m.svg?style=flat-square)][coveralls-url]
-[![Build Status](https://img.shields.io/travis/damiencal/generator-m.svg?style=flat-square)][travis-url]
-[![Dependency Status](http://img.shields.io/david/damiencal/generator-m.svg?style=flat-square)][daviddm-url]
-[![Download Month](http://img.shields.io/npm/dm/generator-m.svg?style=flat-square)][npm-url]
+[![Coverage Status](http://img.shields.io/coveralls/damiencal/crossbeer.svg?style=flat-square)][coveralls-url]
+[![Build Status](https://img.shields.io/travis/damiencal/crossbeer.svg?style=flat-square)][travis-url]
+[![Dependency Status](http://img.shields.io/david/damiencal/crossbeer.svg?style=flat-square)][daviddm-url]
 
 [coveralls-url]: https://coveralls.io/r/damiencal/crossbeer?branch=master
 [travis-url]: https://travis-ci.org/damiencal/crossbeer
