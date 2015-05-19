@@ -8,7 +8,7 @@
 [coveralls-url]: https://coveralls.io/r/damiencal/CrossBeer?branch=master
 [travis-url]: https://travis-ci.org/damiencal/CrossBeer
 [daviddm-url]: https://david-dm.org/damiencal/CrossBeer
-[daviddm-url]: https://david-dm.org/damiencal/CrossBeer#info=devDependencies&view=table
+[daviddm-urldev]: https://david-dm.org/damiencal/CrossBeer#info=devDependencies&view=table
 
 
 
