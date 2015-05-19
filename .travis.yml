@@ -6,8 +6,7 @@ node_js:
   - '0.10'
   - 'iojs'
 before_script:
-  - npm install -g bower
-  - npm install -g gulp
+  - npm install -g yo bower gulp
 
 install: gulp cordova-install
 script: gulp build
