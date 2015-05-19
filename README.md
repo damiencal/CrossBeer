@@ -5,9 +5,9 @@
 [![Dependency Status](http://img.shields.io/david/damiencal/crossbeer.svg?style=flat-square)][daviddm-url]
 [![Dependency Status](http://img.shields.io/david/dev/damiencal/crossbeer.svg?style=flat-square)][daviddm-url]
 
-[coveralls-url]: https://coveralls.io/r/damiencal/crossbeer?branch=master
-[travis-url]: https://travis-ci.org/damiencal/crossbeer
-[daviddm-url]: https://david-dm.org/damiencal/crossbeer
+[coveralls-url]: https://coveralls.io/r/damiencal/CrossBeer?branch=master
+[travis-url]: https://travis-ci.org/damiencal/CrossBeer
+[daviddm-url]: https://david-dm.org/damiencal/CrossBeer
 
 
 ## Why we chose Open Source
