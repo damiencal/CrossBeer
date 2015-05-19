@@ -41,9 +41,7 @@ gulp.task('styles', function () {
     .pipe($.rubySass({
       style: 'expanded',
       precision: 10,
-      'sourcemap=none': true // disable sourcemap to avoid unkown word error
-      // issue (should be fixed when 1.0.0 is stable: https://github.com/sindresorhus/gulp-autoprefixer/issues/20
-      // solution: http://stackoverflow.com/questions/26979433/gulp-with-gulp-ruby-sass-error-style-css-map31-unknown-word
+      'sourcemap=none': true
     }))
     .pipe($.autoprefixer({ browsers: ['last 2 version'], remove: false}))
     .pipe(gulp.dest('.tmp/'));
