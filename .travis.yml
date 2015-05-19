@@ -9,7 +9,7 @@ before_script:
   - npm install -g yo bower gulp
   - npm install
 
-install: gulp cordova-install
+
 script: gulp build
 
 after_script:
