@@ -1,5 +1,5 @@
 language: node_js
-env: CI
+env: CI=true
 node_js:
   - '0.12'
   - '0.11'
@@ -7,6 +7,7 @@ node_js:
   - 'iojs'
 before_script:
   - npm install -g yo bower gulp
+  - npm install
 
 install: gulp cordova-install
 script: gulp build
