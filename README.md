@@ -68,48 +68,34 @@ Many automating tools:
 
 ## Install
 
-# Environement Installation
+#### Debian and variant systems
+```sh
+$ apt-get install nodejs npm sun-java8-jdk
+```
 
-## Ubuntu 14.04 LTS
-$ apt-get install nodejs npm adb
-
-
-### Android
 #### Download the Android SDK (http://developer.android.com/sdk/index.html)
-tar -xvzf android-sdk_rXX-linux.tgz && mv android-sdk-linux /opt/
-
-#### Install Java
-$ apt-get install sun-java8-jdk
+```sh
+$ tar -xvzf android-sdk_rXX-linux.tgz && mv android-sdk-linux /opt/
 
 $ nano ~/.bashrc 
 export PATH=${PATH}:~/android-sdk-linux/tools
 export PATH=${PATH}:~/android-sdk-linux/platform-tools 
-
+```
 
 ### Prerequisites
-Installation of:
 - node & npm - http://nodejs.org/download/
-  - yo: `npm i -g yo` - http://yeoman.io/
-  - gulp: `npm i -g gulp` - http://gulpjs.com/
-  - bower: `npm i -g bower` - http://bower.io/
-- Sass
-  - ruby - https://www.ruby-lang.org/en/installation/
-  - sass - http://sass-lang.com/install
-- Want to test your app on a device ? - Then you'll need:
+- `npm install -g yo bower gulp`
+- sass - http://sass-lang.com/install
+- Want to test your app on a device? - Then you'll need:
   - Platform SDKs for cordova
-    - cordova documentation: [http://cordova.apache.org/docs/en/edge/guide_platforms_index.md.html#Platform%20Guides)
-    - cordova cli readme: [Requirements](https://github.com/apache/cordova-cli/)
+    - [cordova documentation](http://cordova.apache.org/docs/en/edge/guide_platforms_index.md.html#Platform%20Guides)
+    - [cordova-cli readme](https://github.com/apache/cordova-cli/)
 
-## Import Application
-**create new directory** - and cd into it.
-```sh
-mkdir CrossBeer && cd CrossBeer
-```
-**Clone CrossBeer GitHub repository** - and follow the instructions
-```sh
-git clone git@github.com:damiencal/CrossBeer.git
-```
 ## Get started
+#### clone
+```sh
+git clone https://github.com/damiencal/CrossBeer
+```
 #### gulp watch
 Prepares everything for development and opens your default browser. Get ready to start coding!
 ```sh
@@ -117,7 +103,7 @@ gulp watch
 ```
 Livereloads your application when changing/adding/deleting files to immediately reflect the changes you make. If you don't want this task to open your browser, just add the `--no-open` option and navigate to `http://localhost:9000` yourself. For your convenience any occurring **jscs, jshint or jsonlint errors** will be presented to you on every livereload.
 
-#### File structure
+## File structure
 <pre>
 └──  app/           - CrossBeer application folder
 │   └──  bower_components/    - local installation of bower packages
