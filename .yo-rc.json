@@ -1,0 +1,26 @@
+{
+  "generator-m": {
+    "answers": {
+      "appName": "CrossBreer",
+      "appId": "io.cross.beer",
+      "bowerPackages": [
+        "angular-dynamic-locale#~0.1.27",
+        "angular-translate#~2.6.1",
+        "angular-translate-loader-static-files#~2.6.1",
+        "angular-localForage#~1.2.2"
+      ],
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "plugins": [
+        "cordova-plugin-device",
+        "cordova-plugin-dialogs",
+        "cordova-plugin-network-information",
+        "cordova-plugin-splashscreen",
+        "cordova-plugin-statusbar"
+      ],
+      "appModule": "CrossBreer"
+    }
+  }
+}

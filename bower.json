@@ -2,20 +2,33 @@
   "name": "crossbeer",
   "version": "0.0.0",
   "dependencies": {
-    "angular-latest": "^1.3.0",
-    "ng-cordova": "latest",
+    "ionic": "1.0.0",
     "flat-ui": "^2.2.0",
     "bootstrap-ios7": "^2.0.0",
     "bootstrap-material-design": "^0.3.0",
     "bootstrap": "^3.3.0",
-    "angular-animate": "^1.3.0",
+    "angular": "~1.3.14",
     "angular-aria": "^1.3.0",
     "angular-cookies": "^1.3.0",
     "angular-messages": "^1.3.0",
     "angular-resource": "^1.3.0",
     "angular-route": "^1.3.0",
-    "angular-sanitize": "^1.3.0",
-    "angular-touch": "^1.3.0"
+    "angular-touch": "^1.3.0",
+    "angular-animate": "~1.3.14",
+    "angular-sanitize": "~1.3.14",
+    "angular-ui-router": "~0.2.13",
+    "ngCordova": "latest",
+    "angular-dynamic-locale": "~0.1.27",
+    "angular-translate": "~2.6.1",
+    "angular-translate-loader-static-files": "~2.6.1",
+    "angular-localForage": "~1.2.2"
   },
-  "appPath": "app"
+  "devDependencies": {},
+  "resolutions": {
+    "angular": "~1.3.14",
+    "angular-animate": "~1.3.14",
+    "angular-sanitize": "~1.3.14"
+  },
+  "name": "CrossBreer",
+  "private": true
 }

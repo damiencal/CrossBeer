@@ -1,22 +1,22 @@
-# Logs
-logs
-*.log
+# temp files
+.DS_Store
+.tmp
+.sass-cache
 
-# Cordova
-plugins/*
-platforms/*
+# npm & bower
+/node_modules/**
+/app/bower_components/**
+/bower_components/**
 
-# Compiled binary
-build
-bin
-gen
-*.apk
-*.app
+# ionic fonts
+/app/main/assets/fonts/ionicons.*
 
-# Dependency directory
-node_modules
-bower_components
+# cordova
+/platforms/**
+/plugins/**
 
-# Other
-*.DS_Store
-Thumbs.db
+# build folder
+/www/**
+
+# IDE
+

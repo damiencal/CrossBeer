@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cross.beer" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>CrossBeer</name>
+    <name>CrossBreer</name>
     <description>
-        A community driven beer app.
+        A community driven cheap beer finder app.
     </description>
-    <author email="contact@crossbeer.io" href="http://crossbeer.io">
+    <author email="contact@crossbeer.io" href="https://crossbeer.io">
         CrossBeer
     </author>
     <content src="index.html" />
@@ -23,4 +23,11 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <engine name="ios" spec="^3.8.0" />
+    <engine name="android" spec="^4.0.0" />
+    <plugin name="cordova-plugin-device" spec="^1.0.0" />
+    <plugin name="cordova-plugin-dialogs" spec="^1.1.0" />
+    <plugin name="cordova-plugin-network-information" spec="^1.0.0" />
+    <plugin name="cordova-plugin-splashscreen" spec="^2.0.0" />
+    <plugin name="cordova-plugin-statusbar" spec="^1.0.0" />
 </widget>
