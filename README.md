@@ -3,11 +3,13 @@
 [![Coverage Status](http://img.shields.io/coveralls/damiencal/crossbeer.svg?style=flat-square)][coveralls-url]
 [![Build Status](https://img.shields.io/travis/damiencal/CrossBeer.svg?style=flat-square)][travis-url]
 [![Dependency Status](http://img.shields.io/david/damiencal/crossbeer.svg?style=flat-square)][daviddm-url]
-[![Dependency Status](http://img.shields.io/david/dev/damiencal/crossbeer.svg?style=flat-square)][daviddm-url]
+[![Dependency Status](http://img.shields.io/david/dev/damiencal/crossbeer.svg?style=flat-square)][daviddm-urldev]
 
 [coveralls-url]: https://coveralls.io/r/damiencal/CrossBeer?branch=master
 [travis-url]: https://travis-ci.org/damiencal/CrossBeer
 [daviddm-url]: https://david-dm.org/damiencal/CrossBeer
+[daviddm-url]: https://david-dm.org/damiencal/CrossBeer#info=devDependencies&view=table
+
 
 
 ## Why we chose Open Source
