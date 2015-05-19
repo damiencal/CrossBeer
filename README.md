@@ -3,6 +3,7 @@
 [![Coverage Status](http://img.shields.io/coveralls/damiencal/crossbeer.svg?style=flat-square)][coveralls-url]
 [![Build Status](https://img.shields.io/travis/damiencal/crossbeer.svg?style=flat-square)][travis-url]
 [![Dependency Status](http://img.shields.io/david/damiencal/crossbeer.svg?style=flat-square)][daviddm-url]
+[![Dependency Status](http://img.shields.io/david/dev/damiencal/crossbeer.svg?style=flat-square)][daviddm-url]
 
 [coveralls-url]: https://coveralls.io/r/damiencal/crossbeer?branch=master
 [travis-url]: https://travis-ci.org/damiencal/crossbeer
