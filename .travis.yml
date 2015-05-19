@@ -1,4 +1,5 @@
 language: node_js
+sudo: required
 env: CI=true
 node_js:
   - '0.12'
@@ -6,7 +7,9 @@ node_js:
   - '0.10'
   - 'iojs'
 before_script:
-  - npm install -g yo bower gulp
+  - sudo npm install -g yo
+  - sudo npm install -g bower
+  - sudo npm install -g gulp
   - npm install
 
 
