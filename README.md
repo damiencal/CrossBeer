@@ -1,5 +1,7 @@
 # CrossBeer
 
+[![Join the chat at https://gitter.im/damiencal/CrossBeer](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/damiencal/CrossBeer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Coverage Status](http://img.shields.io/coveralls/damiencal/crossbeer.svg?style=flat-square)][coveralls-url]
 [![Build Status](https://img.shields.io/travis/damiencal/crossbeer.svg?style=flat-square)][travis-url]
 [![Dependency Status](http://img.shields.io/david/damiencal/crossbeer.svg?style=flat-square)][daviddm-url]
