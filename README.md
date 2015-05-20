@@ -16,17 +16,16 @@ CrossBeer is a blockchain based decentralized social network mobile application 
 
 Features:
 Discover & Share Your Favorite Beers
-
 Explore Nearby Popular Bars
-
 Discover What Your Friends Are Drinking
-
 Share What & Where You’re Drinking
 
 
 ## Why we chose Open Source
 We have chosen to open source the app's code hoping the community will help us turn this project a reality.
 
+We will start by developing the app skeleton and once we have something solid we will work on the apps features.
+We hope that the skeleton can be used as a boilerplate for other projects.
 
 ### What's in the box
 
