@@ -83,14 +83,6 @@ $ apt-get install nodejs npm sun-java8-jdk
 
 $ npm install -g yo bower gulp cordova
 ```
-#### Download the Android SDK (http://developer.android.com/sdk/index.html)
-```sh
-$ tar -xvzf android-sdk_rXX-linux.tgz && mv android-sdk-linux /opt/
-
-$ nano ~/.bashrc 
-export PATH=${PATH}:~/android-sdk-linux/tools
-export PATH=${PATH}:~/android-sdk-linux/platform-tools 
-```
 
 ## Get started
 #### clone
@@ -346,6 +338,19 @@ gulp --cordova 'plugin save'
 
 ## Plateform Environements
 
+### Android SDK
+
+#### Download the Android SDK (http://developer.android.com/sdk/index.html)
+```sh
+$ tar -xvzf android-sdk_rXX-linux.tgz && mv android-sdk-linux /opt/
+
+$ nano ~/.bashrc 
+export PATH=${PATH}:~/android-sdk-linux/tools
+export PATH=${PATH}:~/android-sdk-linux/platform-tools 
+```
+
+
+
 ### Ubuntu SDK
 
 https://developer.ubuntu.com/en/apps/html-5/guides/cordova-guide/
@@ -364,6 +369,23 @@ Note: also, update the author email field with a valid one:
     <author email="myid@ubuntu.com" />
 
 
+### Windows SDK
+ToDo
+
+### iOS SDK
+ToDo
+
+### Blackberry
+ToDo
+
+### Tizen SDK
+ToDo
+
+### Firefox OS SDK
+ToDo
+
+### Amazon Fire SDK
+ToDo
 
 
 ## Troubleshooting
