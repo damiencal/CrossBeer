@@ -68,11 +68,21 @@ Many automating tools:
 
 ## Install
 
-#### Debian and variant systems
+### Prerequisites
+- node & npm - http://nodejs.org/download/
+- sass - http://sass-lang.com/install
+- Want to test your app on a device? - Then you'll need:
+  - Platform SDKs for cordova
+    - [cordova documentation](http://cordova.apache.org/docs/en/edge/guide_platforms_index.md.html#Platform%20Guides)
+    - [cordova-cli readme](https://github.com/apache/cordova-cli/)
+
+
+#### Debian/Ubuntu and variant systems
 ```sh
 $ apt-get install nodejs npm sun-java8-jdk
-```
 
+$ npm install -g yo bower gulp cordova
+```
 #### Download the Android SDK (http://developer.android.com/sdk/index.html)
 ```sh
 $ tar -xvzf android-sdk_rXX-linux.tgz && mv android-sdk-linux /opt/
@@ -82,20 +92,20 @@ export PATH=${PATH}:~/android-sdk-linux/tools
 export PATH=${PATH}:~/android-sdk-linux/platform-tools 
 ```
 
-### Prerequisites
-- node & npm - http://nodejs.org/download/
-- `npm install -g yo bower gulp`
-- sass - http://sass-lang.com/install
-- Want to test your app on a device? - Then you'll need:
-  - Platform SDKs for cordova
-    - [cordova documentation](http://cordova.apache.org/docs/en/edge/guide_platforms_index.md.html#Platform%20Guides)
-    - [cordova-cli readme](https://github.com/apache/cordova-cli/)
-
 ## Get started
 #### clone
 ```sh
 git clone https://github.com/damiencal/CrossBeer
 ```
+
+#### bootstrap app
+```sh
+npm install
+bower install
+gulp build
+```
+
+
 #### gulp watch
 Prepares everything for development and opens your default browser. Get ready to start coding!
 ```sh
@@ -333,6 +343,28 @@ or by typing the following commands every time before you commit:
 gulp --cordova 'platform save'
 gulp --cordova 'plugin save'
 ```
+
+## Plateform Environements
+
+### Ubuntu SDK
+
+https://developer.ubuntu.com/en/apps/html-5/guides/cordova-guide/
+```sh
+$ sudo apt-add-repository ppa:cordova-ubuntu/ppa; sudo apt-get update
+$ sudo apt-get install cordova-cli
+
+$ sudo click chroot -a armhf -f ubuntu-sdk-14.04 create
+```
+Note: ensure you define an icon for your application like this:
+
+    <icon src="img/logo.png" />
+
+Note: also, update the author email field with a valid one:
+
+    <author email="myid@ubuntu.com" />
+
+
+
 
 ## Troubleshooting
 If you're experiencing difficulties using the generator please refer to the [Troubleshooting](https://github.com/damiencal/CrossBeer/wiki/Troubleshooting) section in our wiki or [create an issue](https://github.com/damiencal/CrossBeer/issues/new)!
