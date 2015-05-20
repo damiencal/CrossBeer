@@ -11,6 +11,18 @@
 [daviddm-urldev]: https://david-dm.org/damiencal/CrossBeer#info=devDependencies
 
 
+## Description
+CrossBeer is a blockchain based decentralized social network mobile application that 
+
+Features:
+Discover & Share Your Favorite Beers
+
+Explore Nearby Popular Bars
+
+Discover What Your Friends Are Drinking
+
+Share What & Where You’re Drinking
+
 
 ## Why we chose Open Source
 We have chosen to open source the app's code hoping the community will help us turn this project a reality.
